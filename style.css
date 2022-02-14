@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', Arial;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    width: 80%;
+    margin: 60px auto;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    height: 100vh;
+    margin-top: 0px;
+}
+
+.circle{
+    width: 500px;
+    height: 500px;
+    background-color: var(--circle);
+    position: absolute;
+    top: -40%;
+    right: -30%;
+    border-radius: 50%;
+    z-index: -1;
+
+}
+
+.header .col-1{
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 100%;
+    padding: 30px;
+}
+
+.highlight{
+    color: var(--Blue);
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--H1);
+    font-weight: bold;
+}
+
+header h1{
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 16px;
+    color: var(--Grey);
+}
+
+header p{
+    margin: 30px auto;
+}
+
+.ctn{
+    padding: 8px 12px;
+    background-color: var(--H1);
+    color: whitesmoke;
+    width: 100px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header .col-2{
+    width: 100%;
+}
+
+.header .col-2 img{
+    max-width: 80%;
+}
+
+ /* --- COLOR STYLING (VARIABLES)--- */
+
+:root {
+
+--H1: #130F49;
+--Blue: #34A1CD;
+--Dark-Purple: #55527C;
+--Grey: #B4B2C5;
+--Pink:#EA4C89;
+--circle: #F4F3FF;
+
+/* --light-pink: #FFF5F6;
+--light-Purple: #ADA8FF;
+--light-blue: #E9F9FF; */
+
+/* Testimonial Background - #FFF5F6;
+Contact Background     - #E9F9FF; */
+}
+
+ /* --- COLOR STYLING --- */
+
+ /* --- NAVBAR --- */
+
+ .navbar{
+     display: flex;
+     width: 100%;
+     padding: 30px;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .navbar .nav-list ul, .social-icons ul {
+    display: flex;
+ }
+
+ .nav-list ul li, .social-icons ul li{
+    margin: 0px 30px;
+    color: var(--Dark-Purple);
+    font-size: 18px;
+    cursor: pointer;
+ }
+
+ .logo{
+     width: 50px;
+ }
+
+
+ /* --- NAVBAR --- */
+
+
