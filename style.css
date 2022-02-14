@@ -7,8 +7,9 @@
     padding: 0;
 }
 
-body {
+body, html {
     font-family: 'Poppins', Arial;
+    overflow-x: hidden;
 }
 
 li{
@@ -18,6 +19,7 @@ li{
 li:hover{
     font-size: 20px;
     font-weight: bold;
+    transform: scale(1.2);
 }
 
 .container{
@@ -46,7 +48,7 @@ header {
     background-color: var(--circle);
     position: absolute;
     top: -40%;
-    right: -30%;
+    right: -15%;
     border-radius: 50%;
     z-index: -1;
 
@@ -73,6 +75,7 @@ header h1{
     margin-bottom: 30px;
 }
 
+ 
 p {
     font-size: 16px;
     color: var(--Grey);
@@ -89,6 +92,13 @@ header p{
     width: 100px;
     border-radius: 7px;
     text-align: center;
+}
+
+.ctn:hover {
+    background-color: white;
+    border: 1px solid var(--H1);
+    color: var(--H1);
+    font-weight: bold;
 }
 
 a{
@@ -143,6 +153,10 @@ Contact Background     - #E9F9FF; */
     color: var(--Dark-Purple);
     font-size: 18px;
     cursor: pointer;
+ }
+
+ .social-icons ul li:hover {
+     transform: scale(1.4);
  }
 
  .logo{
