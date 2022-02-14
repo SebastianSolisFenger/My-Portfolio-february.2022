@@ -71,6 +71,10 @@ h1 {
     font-weight: bold;
 }
 
+h3{
+    color: var(--Grey);
+}
+
 header h1{
     margin-bottom: 30px;
 }
@@ -165,5 +169,27 @@ Contact Background     - #E9F9FF; */
 
 
  /* --- NAVBAR --- */
+
+
+  /* --- SECTION SKILLS--- */
+
+  .title {
+      text-align: center;
+      margin-bottom: 60px;
+  }
+
+   
+  .grid-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+      grid-gap: 40px;
+  }
+
+  .icon-title{
+      display: flex;
+      align-items: center;
+  }
+
+    /* --- SECTION SKILLS--- */
 
 
