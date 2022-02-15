@@ -182,14 +182,53 @@ Contact Background     - #E9F9FF; */
   .grid-wrapper {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(400px, auto));
-      grid-gap: 40px;
+      grid-gap: 50px;
   }
 
   .icon-title{
       display: flex;
       align-items: center;
+      margin-bottom: 20px;
   }
+
+  .icon-title img {
+      margin-right: 20px;
+  }
+
+  .icon-title h2 {
+    font-size: 20px;
+}
+
+.grid-box .highlight{
+    font-weight: bold;
+}
+
+.grid-box {
+    padding: 30px;
+}
+
+.skills .grid-box:hover {
+    box-shadow: 0px 0px 30px rgb(95, 75, 75);
+    border-radius: 20px;
+}
 
     /* --- SECTION SKILLS--- */
 
+        /* --- THE EXPERIMENT WITH THE PROFILE IMG-- */
+    .hero-img{
+        display: flex;
+        justify-content: center;
+    }
+        /* --- THE EXPERIMENT WITH THE PROFILE IMG-- */
+
+
+   /* --- PORTFOLIO-- */
+   .portfolio .grid-wrapper{
+    display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+      grid-gap: 50px;
+
+   }
+
+    /* --- PORTFOLIO-- */
 
