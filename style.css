@@ -127,10 +127,10 @@ a{
 --Grey: #B4B2C5;
 --Pink:#EA4C89;
 --circle: #F4F3FF;
+--light-pink: #FFF5F6;
 
-/* --light-pink: #FFF5F6;
---light-Purple: #ADA8FF;
---light-blue: #E9F9FF; */
+/* --light-Purple: #ADA8FF;
+--light-blue: #E9F9FF; */ 
 
 /* Testimonial Background - #FFF5F6;
 Contact Background     - #E9F9FF; */
@@ -223,12 +223,112 @@ Contact Background     - #E9F9FF; */
 
 
    /* --- PORTFOLIO-- */
+
+   .portfolio {
+    margin-top: 140px;
+    position: relative;
+}
+
    .portfolio .grid-wrapper{
     display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-      grid-gap: 50px;
+      grid-gap: 20px;
 
    }
 
+   .portfolio .title{
+       text-align: left;
+   }
+
+   .portfolio .title .ctn-title {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctn-title h4 {
+    color: var(--Dark-Purple);
+    cursor: pointer;
+}
+
+.ctn-title .highlight {
+    color: var(--Pink);
+}
+
+.rect-bg {
+    width: 700px;
+    height: 400px;
+    background-color: var(--light-pink);
+    position: absolute;
+    top: -10%;
+    right: -20%;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.portfolio .grid-box {
+    position: relative;
+}
+
+.hover{
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    width: 60%;
+    height:  60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--Dark-Purple);
+    color: whitesmoke;
+    border-radius: 20px;
+    transform: scaleX(0) ;
+    transition: transform 0.5s ease ;
+}
+
+.portfolio .grid-box:hover .hover{
+    transform: scaleX(1);
+}
+
     /* --- PORTFOLIO-- */
+
+    /* --- TESTTIMONIALS-- */
+          
+    .testimonials {
+        margin-top: 120px;
+        background-color: var(--light-pink);
+    }
+
+    .testimonials .grid-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+
+    .testimonials .grid-box {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 0px 0px 30px rgba(56, 42, 42, 0.445);
+        position: relative;
+    }
+        
+
+    .testimonials .grid-box img {
+        margin-top: -70px;
+        margin-bottom: 40px;
+    }
+
+    .testimonials .grid-box .fa-quote-left {
+       font-size: 25px;
+       color: var(--Grey);
+       margin-bottom: 20px;
+    }
+
+          
+    /* --- TESTTIMONIALS-- */
 
