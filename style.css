@@ -350,3 +350,48 @@ Contact Background     - #E9F9FF; */
           
     /* --- TESTTIMONIALS-- */
 
+              
+    /* --- CONTACT ME-- */
+
+
+    .contact .container{
+        margin-top: 70px;
+        text-align: center;
+        background-color: var(--light-blue);
+        padding: 60px;
+        border-radius: 20px;
+    }
+
+    .contact h3{
+        margin: 40px 0px;
+    }
+
+    .contact .container .fa.fa-envelope-o {
+          color: var(--Blue);
+          font-size: 30px;
+          margin-right: 30px;
+    }
+
+    .contact .quick-links{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contact .quick-links ul{
+        display: flex;
+        /* align-items: center;
+        justify-content: space-between; */
+    }
+
+    .contact .quick-links ul li{
+        margin: 0px 20px;
+        color: var(--Dark-Purple);
+        font-weight: bold;
+        cursor: pointer;
+        /* align-items: center;
+        justify-content: space-between; */
+    }
+
+    /* --- CONTACT ME-- */
+
