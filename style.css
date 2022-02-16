@@ -145,6 +145,7 @@ Contact Background     - #E9F9FF; */
      padding: 30px;
      align-items: center;
      justify-content: space-between;
+     position: relative;
  }
 
  .navbar .nav-list ul, .social-icons ul {
@@ -404,5 +405,17 @@ Contact Background     - #E9F9FF; */
 }
 
     /* --- CONTACT ME-- */
+
+    /* --- TOGGLE BTN-- */
+    .toggle-btn i{
+        font-size: 30px;
+        color: var(--Dark-Purple);
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: none;
+    }
+    
+    /* --- TOGGLE BTN-- */
 
 

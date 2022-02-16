@@ -2,6 +2,7 @@
     
     .header {
         height: 100%;
+        margin-top: 120px;
     }
 
     h1 {
@@ -74,6 +75,37 @@
 
 .copyright p {
 font-size: 12px;
+}
+ 
+.toggle-btn i{
+    display: block;
+}
+
+.brand img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 20px;
+}
+
+.navbar {
+    background-color: #e9f9ff;
+    height: 100vh;
+    flex-direction: column;
+    display: none;
+}
+
+.nav-list ul {
+    flex-direction: column;
+}
+
+.nav-list ul li {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.mobile-nav{
+    display: flex;
 }
 
 } 

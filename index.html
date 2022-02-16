@@ -38,8 +38,11 @@
                 <li><i class="fa fa-linkedin"></i></li>
             </ul>
         </div>
-
     </nav>
+
+    <div class="toggle-btn">
+        <i class="fa fa-bars"></i>
+    </div>
 
     <!-- /* --- HEADER --- */ -->
       
@@ -270,6 +273,17 @@
         </div>
         
         <!-- /* --- COPY RIGHT DIV --- */ -->
+
+        <SCript>
+            let togglebtn = document.querySelector('.toggle-btn')
+            let navbar = document.querySelector('.navbar')
+
+            togglebtn.addEventListener('click', () => {
+                 navbar.classList.toggle('mobile-nav')
+            })
+        </SCript>
+
+         <!-- /* --- SCRIPT --- */ -->
 
 
 </body>
