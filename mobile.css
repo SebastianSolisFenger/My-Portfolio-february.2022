@@ -1,0 +1,79 @@
+@media only screen and (max-width: 700px){
+    
+    .header {
+        height: 100%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    
+    .header .row {
+        flex-direction: column;
+    }
+
+    .header .col-1 {
+        padding: 20px;
+    }
+
+    .header .col-2  {
+        margin: 40px auto;
+    }
+    .header .col-2 img {
+        max-width: 90%;
+    }
+
+    .grid-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+
+    .grid-box{
+        padding: 14px;
+    }
+
+    .skills{
+        height: 100%;
+    }
+
+   .portfolio .title .ctn-title {
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact .container{
+    padding: 10px;
+    padding-bottom: 30px;
+
+}
+
+.contact .container h1{
+    font-size: 15px;
+
+}
+
+.contact .quick-links{
+    flex-direction: column;
+}
+
+.contact .quick-links img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.contact .quick-links ul li{
+    margin: 0px 5px;
+  
+}
+
+.contact .container .fa.fa-envelope-o {
+    color: var(--Blue);
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.copyright p {
+font-size: 12px;
+}
+
+} 

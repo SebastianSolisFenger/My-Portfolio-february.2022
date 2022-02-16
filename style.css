@@ -395,3 +395,14 @@ Contact Background     - #E9F9FF; */
 
     /* --- CONTACT ME-- */
 
+
+    /* --- CONTACT ME-- */
+.copyright p {
+    font-weight: bold;
+    color: var(--Dark-Purple);
+    text-align: center;
+}
+
+    /* --- CONTACT ME-- */
+
+
