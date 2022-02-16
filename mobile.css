@@ -22,6 +22,8 @@
     }
     .header .col-2 img {
         max-width: 90%;
+        box-shadow: 5px 30px 40px rgba(44, 34, 34, 0.445);
+
     }
 
     .grid-wrapper {
@@ -41,9 +43,29 @@
     text-align: left;
 }
 
+.portfolio img {
+    box-shadow: 5px 30px 40px rgba(44, 34, 34, 0.445);
+    border-radius: 20px;
+
+     
+}
+
+.portfolio .title  {
+    flex-direction: column;
+    text-align: center;
+}
+
+.hover{
+    top: 20%;
+    left: 15%;
+    width: 70%;
+    height:  60%;
+}
+
 .contact .container{
     padding: 10px;
     padding-bottom: 30px;
+    box-shadow: 5px 30px 40px rgba(44, 34, 34, 0.445);
 
 }
 

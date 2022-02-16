@@ -115,6 +115,7 @@ a{
 
 .header .col-2 img{
     max-width: 80%;
+    box-shadow: 5px 30px 40px rgba(44, 34, 34, 0.445);
 }
 
  /* --- COLOR STYLING (VARIABLES)--- */
@@ -261,7 +262,7 @@ Contact Background     - #E9F9FF; */
     height: 400px;
     background-color: var(--light-pink);
     position: absolute;
-    top: -10%;
+    top: -15%;
     right: -20%;
     z-index: -1;
     border-radius: 20px;
@@ -269,13 +270,18 @@ Contact Background     - #E9F9FF; */
 
 .portfolio .grid-box {
     position: relative;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 30px 40px rgba(44, 34, 34, 0.445);
 }
 
 .hover{
     position: absolute;
     top: 20%;
-    left: 22%;
-    width: 60%;
+    left: 15%;
+    width: 70%;
     height:  60%;
     display: flex;
     flex-direction: column;
@@ -361,6 +367,7 @@ Contact Background     - #E9F9FF; */
         background-color: var(--light-blue);
         padding: 60px;
         border-radius: 20px;
+        box-shadow: 5px 30px 40px rgba(44, 34, 34, 0.445);
     }
 
     .contact h3{
