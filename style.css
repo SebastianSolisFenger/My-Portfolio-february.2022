@@ -128,9 +128,8 @@ a{
 --Pink:#EA4C89;
 --circle: #F4F3FF;
 --light-pink: #FFF5F6;
-
-/* --light-Purple: #ADA8FF;
---light-blue: #E9F9FF; */ 
+ --light-Purple: #ADA8FF;
+--light-blue: #E9F9FF; 
 
 /* Testimonial Background - #FFF5F6;
 Contact Background     - #E9F9FF; */
@@ -309,7 +308,6 @@ Contact Background     - #E9F9FF; */
         background-color: white;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         align-items: center;
         text-align: center;
         border-radius: 15px;
@@ -321,12 +319,32 @@ Contact Background     - #E9F9FF; */
     .testimonials .grid-box img {
         margin-top: -70px;
         margin-bottom: 40px;
+        transition: transform 0.5s ease;
+    }
+
+    .testimonials .grid-box:hover img{
+        transform: scale(1.2);
     }
 
     .testimonials .grid-box .fa-quote-left {
        font-size: 25px;
        color: var(--Grey);
-       margin-bottom: 20px;
+    }
+
+    .testimonials .grid-box p {
+        margin: 20px auto;
+    }
+    
+    .testimonials .grid-box h4 {
+        font-weight: bold;
+    }
+
+    .testimonials .grid-box .rating {
+        color: var(--light-Purple);
+    }
+
+    .testimonials .grid-box .rating-special-one {
+        color: var(--Pink);
     }
 
           
